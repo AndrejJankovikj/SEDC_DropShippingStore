@@ -106,6 +106,8 @@
 
 
  .MainDiv {
+
+
      width: 100%;
      height: 100%;
      background-color: black;
@@ -144,11 +146,13 @@
 
  @keyframes slide-in {
      0% {
+         display: none;
          transform: translateY(-200%);
          transform: translateX(-50%);
          color: transparent;
          text-shadow: none;
          opacity: 0;
+
      }
 
      100% {
@@ -214,7 +218,7 @@
          2px 1px 0 #000000;
      font-style: italic;
      animation: quotes .7s ease-in-out;
-     animation-delay: .5s;
+     /* animation-delay: .5s; */
  }
 
  @keyframes quotes {
@@ -237,3 +241,10 @@
  }
 
  /* OBAVEZNO OVA NAGORE */
+
+
+
+
+
+
+ 
