@@ -172,7 +172,7 @@
      animation: slide-in 2s ease forwards;
  }
 
- .btn {
+ .homeBtn {
      position: absolute;
      top: 80%;
      left: 50%;
@@ -186,7 +186,7 @@
      transition: background-color .7s ease;
  }
 
- .btn:hover {
+ .homeBtn:hover {
      position: absolute;
      top: 80%;
      left: 50%;
@@ -241,10 +241,3 @@
  }
 
  /* OBAVEZNO OVA NAGORE */
-
-
-
-
-
-
- 
